@@ -7,7 +7,11 @@ export default function Sofa() {
     <div style={{ padding: 40 }}>
       <h1>沙發編號 {id}</h1>
       <p>可客製尺寸與顏色</p>
-      <button>加入購物車</button>
+      <button
+  onClick={() => alert('已加入購物車（示意）')}
+>
+加入購物車
+</button>
     </div>
   );
 }
